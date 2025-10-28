@@ -1,0 +1,82 @@
+body {
+  font-family: Times, serif;
+  color: rgb(255, 255, 255);
+  width: 100%;   
+  background-image: url('images/fond.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#titre {
+  text-align: center;
+  font-style: normal;
+  font-weight :bold;
+  font-size: 30px;
+  padding:25px;
+background-color: rgb(33, 216, 216);
+}
+#soustitre {
+   text-align: center;
+  font-style: italic;
+  font-weight :bold;
+  font-size: 25px;
+  background-color: transparent;
+
+  color: aquamarine;
+}
+.citation {
+  margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    padding-left: 0px;
+    background-color: white;
+    color: black; 
+    width:900px;
+  max-width: 900px;
+  max-height: 225px;
+
+}
+.texte {
+  max-width: 500px;
+
+  font-size: 20px;
+  padding: 20px;
+  margin:50px;
+    flex: 1;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.img {
+    width: 7cm;
+    height: 5cm;
+    padding: 1em;
+    margin-right: 20px;
+  transform:rotate(0.05turn);
+}
+
+#titre2 {
+      color: rgb(255, 255, 255);
+        font-size: 30px;
+        margin: 20px;
+}
+#texte2 {
+
+    font-size: 18px;
+  width: 35em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  line-height: 1.2;
+        color: rgb(118, 208, 243);
+    margin: 10px;
+}
+.texte:hover{
+  transform:scale(1.05);
+}
+.paragraphe:hover {
+  transform:scale(1.05);
+}
+.paragraphe{
+  margin:50px;
+  margin-left:100px;
+  align-content: left;
+  width: 35em;
+
+}
