@@ -16,7 +16,7 @@
 	margin-left: auto;
 }
 #acceuil{
-    margin-left: 800px;
+    margin-left: 20px;
 	}
 #blog{
         margin-left: 20px;
@@ -46,11 +46,7 @@
 	position: relative;
 	}
 .imageGrand:hover {
-	margin-left: 5%;
-	margin-top: 5%;
-	
-	width: 90%;
-	height: auto;
+	transform: scale(0.9);
 }
 #toronto-grand{
 	border-radius: 15px;
@@ -79,8 +75,6 @@
 }
 
 
-.blog {
-}
 #toronto-petit {
 	width: 10%;
     height: auto;
@@ -89,6 +83,24 @@
 }
 #titreBlog {
 	display:flex;
-	justify-content: left;
+	justify-content: normal;
+	width: 100%;
+}
+
+.blog{
+    display:flex;
+    background-color: rgb(240,240,247);
+    padding: 1.5em;
+    width: %;
+    flex-direction: column;
+}
+
+#blog-toronto{
+    margin-top: 10px;
+}
+.contenu{
+	margin-top: 20px;
+    display: flex;
+    justify-content: left;
 	width: 100%;
 }
