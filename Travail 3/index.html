@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Travail 3 - Toronto</title>
 </head>
 <body>
@@ -10,22 +11,31 @@
     <div class = "header"> 
         <img id = "drapeau"src="images/drapeau.jpg" alt="drapeau">
         <h1 id = "HeaderOntario">Ontario</h1>
-        <p id = "acceuil">Acceuil</p>
-        <p id = "blog">Blog</p>
-        <p id = "cv">CV</p>
-        <p id = "contact">Contact</p>
-        <h6 id = carnet>Carnet de voyage</h6>
-        <hr>
+		
+		<div class = "liens">
+        	<p id = "acceuil">Acceuil</p>
+        	<p id = "blog">Blog</p>
+        	<p id = "cv">CV</p>
+        	<p id = "contact">Contact</p>
+		</div>
+		
     </div>
+	<h6 id = "carnet">Carnet de voyage</h6>
+	<hr id = "ligne">
 
     <div class = "imageGrand">
         <img id = "toronto-grand"src = "images/toronto-grand.jpg" alt ="Toronto-grand">
-        <h2 id = "TexteImageGrand">Retour sur mes vacances à toronto</h2>
+		<div class = textGrand>
+        	<h2 id = "TexteImageGrand">Retour sur mes vacances à toronto</h2>
+		</div>
     </div>
 
     <div class = "blog">
-        <img id = "toronto-petit" src = "images/toronto-petit.jpg">
-        <h1 id = "toronto-petit">À la découverte de l'Ontario</h1>
+		<div id = "titreBlog">
+        	<img id = "toronto-petit" src = "images/toronto-petit.jpg">
+        	<h1 id = "titre-toronto-petit">À la découverte de l'Ontario</h1>
+		</div>	
+		<br>
         <p id = "blog-toronto">L'Ontario est entouré par les provinces du Québec à l'est, du Manitoba à l'ouest, des Etats-Unis au sud, c'est à la fois le centre géographique, économique et politique du Canada. La province possède un patrimoine naturel riche et varié, elle par sa proximité aux Grands Lacs (Supérieur, Ontario, Huron, Erié).
 C'est la province la plus peuplée du Canada, avec près de 12,7 millions d'habitants. Cette population ontarienne s'est forgée une identité unique à partir des nombreuses communautés qui se sont installées sur son territoire : les peuples algonquiens, iroquoies, les Français, puis les Anglais et aujourd'hui, de nouveaux arrivant issus du monde entier.
 La province abrite deux villes importantes : Toronto, capitale provinciale, et Ottawa, capitale fédérale.
@@ -34,6 +44,7 @@ La province abrite deux villes importantes : Toronto, capitale provinciale, et O
         <p id = "blog-ottawa">4e ville la plus importante du Canada, la capitale fédérale compte plus d'1,1 million d'habitants. Avec un des taux de criminalité les plus bas du pays, près de 880 parcs,
 un niveau et une qualité de vie élevés, deux universités prestigieuses, un marché de l'emploi en forme : Ottawa n'a rien à envier à Toronto.
 </p>
+		
     </div>
 
     <div class="Biographie">
