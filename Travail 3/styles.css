@@ -12,24 +12,24 @@
 }
 .liens {
 	display: flex;
-	justify-content: right;
 	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
-#acceuil{
+.liens-texte{
     margin-left: 20px;
-	}
-#blog{
-        margin-left: 20px;
+	text-decoration: none;
+	color: #333;
+	list-style-type: none;
+	font-size: 25px;
+}
+mark{
+	background-color: transparent;
+}
+mark:hover{
+	background-color: rgb(134 118 118 / 50%);
+}
 
-	}
-#cv{
-        margin-left: 20px;
-
-	}
-#contact{
-        margin-left: 20px;
-
-	}
 #carnet {
 	margin-top:5px;
 	margin-left: 10px;
@@ -41,6 +41,9 @@
 	height: 2px;
 	margin-right: 80px;
 }
+
+
+
 .imageGrand {
 	display:flex;
 	position: relative;
@@ -64,6 +67,7 @@
 	opacity: 0.8;
 	transition: opacity 0.5s ease-in-out;
 	align-items: center;
+	text-shadow: 5px 5px 0 black;
 }
 #TexteImageGrand{
 	color: white;
@@ -98,6 +102,11 @@
 #blog-toronto{
     margin-top: 10px;
 }
+.T1{
+font-size: 20px;
+text-indent: 0.8cm;
+font-family: Cambria,Cochin, Georgia, Times, 'Times New Roman';
+}
 .contenu{
 	margin-top: 20px;
     display: flex;
@@ -105,13 +114,26 @@
 	width: 90%;
 	margin-left: 5%;
 }
-.Biographie{
+aside{
+	float: right;
+	flex: 1;
+	width: 25%;
 	background-color: black;
 	color: white;
-	padding-left: 10px;
-	margin-left: 10px;
-	border-radius: 15px;
+	padding: 1.5em;
+	margin-left: 0.5em;
+	margin-right: 2.3em;
+	border-radius: 1em;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px;
+	font-family: "Terminal", "Fixedsys", monospace;
 }
+aside p{
+text-align:justify;
+}
+#trump{
+	padding: 0 3em 2em 2em;
+}
+
 #logoFacebook{
 	width: 50px;
 	height: 50px;
@@ -134,4 +156,27 @@
 }
 #TrumpRouge{
 	color: red;
+}
+footer{
+	display:flex;
+	flex-direction: row;
+	margin: 5%;
+	gap:50px;
+}
+.amis{
+	width:50%;
+}
+.amis ul{
+float:left;
+	color:darkred;
+}
+.amis ul li::marker{
+	color:black;
+}
+.tweet{
+	width: 50%;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
 }
