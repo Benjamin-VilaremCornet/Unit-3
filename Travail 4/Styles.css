@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f1f2f5;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(181, 224, 178);
+  top: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  box-shadow: 0 0.3125em 0.5em - 0.5em rgba(0, 0, 0, 0.75);
+}
+.Header_Gauche {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Header_Gauche img {
+  width: 3.125em;
+  height: 3.125em;
+}
+
+.header_input {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 0.625em;
+  margin-left: 0.625em;
+  border-radius: 2em;
+}
+
+.header_input .material-icons {
+  border: none;
+  background-color: transparent;
+  padding-top: 0.1875em;
+}
+
+.header_input input{
+	border-style: none;
+	background-color: transparent;
+	outline-width: 0;
+}
+.Header_Droite {
+  display: flex;
+  align-items: center;
+}
+.Header_Droite img {
+  border-radius: 100%;
+  width: 3.75em;
+  height: 3.75em;
+  margin-right: 0.625em;
+}
+.Header_Droite h4:hover {
+  background-color: #eff2f5;
+  border-radius: 0.625em;
+  align-items: center;
+  border-bottom: none;
+  padding: 0.625em;
+}
+.Header_Droite h4 {
+  border-radius: 0.625em;
+  font-size: 1em;
+  align-items: center;
+  border-bottom: none;
+}
+.Header_Droite h4:hover {
+  background-color: #eff2f5;
+  border-radius: 0.625em;
+  align-items: center;
+  border-bottom: none;
+  padding: 0.625em;
+}
+/* MenuGauche  */
+
+.Gauche_Images{
+	display:flex;
+}
+
+.MenuGauche {
+	display:flex;
+   padding-top: 2em;
+	padding-left: 1em;
+	padding-right: 1em
+}
+.MenuGauche:hover {
+  background-color: lightgray;
+  border-radius: 0.625em;
+}
+
+.MenuGauche h4 {
+	float:right;
+	display:flex;
+	margin-left: 1.25em;
+	font-size: 1.5625em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Mes images */
+.Mes_images {
+	width:80%;
+	object-fit: cover;
+	display:flex;
+  position: relative;
+  margin-top: 1em;
+  margin-right: 0.625em;
+  width: 10em;
+  height: 20em;
+  box-shadow: 0px 0.4em 1em -0.95 rgba(0, 0, 0, 0.75);
+  border-radius: 0.625em;
+}
+
+.Mes_images figcaption{
+	width: 10em;
+	margin-top: 19em;
+	margin-left: 0em;
+	position:absolute;
+	color: white;
+	background-color: #7b7b65a8;
+	font-weight:bold;
+	width: 100%;
+	text-align: center;
+	
+}
+.Mes_images{
+	position: relative;
+	float:left;
+}
+.Mes_images:hover {
+  transform: scale(1.07);
+}
+/* Text et image du bas */
+.Text_bas {
+  width: 80%;
+  margin-top: 2em;
+  height: 4em;
+  padding: 0.5em 1em 0.5em 1em;
+  font-size: 1.3125em;
+  font-family: cursive;
+  margin-left: 12em;
+  color: white;
+  border-radius: 1em;
+  background-color: rgb(125, 125, 216);
+  text-align: center;
+}
+.image_bas {
+  width: 55%;
+  margin-left: 24em;
+  margin-top: 1em;
+  border-radius: 35%;
+  background-color: white;
+  box-shadow: 0px 0.4em 0.9em -0.9em rgba(0, 0, 0, 0.75);
+  animation: flotte 2000ms linear infinite;
+  /* la forme va appliquer l’animation tourne pendant 5s et infiniment */
+}
