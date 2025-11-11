@@ -195,6 +195,7 @@ header{
 	50% {transform:scale(0.95)}
 	100% {transform:scale(0.9)}	
 }
+
 @media (max-width: 768px) {
 
 
@@ -202,9 +203,12 @@ header{
     display: none;
   }
 header{
-	justify-content: space-evenly;
+display: flex;
+flex-direction: column;
+padding: 1em;
 }
   .header_input {
+  width: 80%;
     display: flex;
     align-items: center;
     background-color: #eff2f5;
@@ -212,7 +216,6 @@ header{
     margin-left: 0.3em;
     border-radius: 2em
   }
-	}
   .header_middle {
     display: flex;
     flex: 1;
@@ -228,10 +231,10 @@ header{
     text-decoration: none
   }
   .header_right img {
+  float: right;
     border-radius: 100%;
     width: 1.5em;
     height: 1.5em;
-    margin-right: 0.25em
   }
   .header_right h4 {
     border-radius: 0.625em;
@@ -240,23 +243,21 @@ header{
     border-bottom: none;
   }
   .main {
+  margin-left: 0.625em;
     margin-top: 1.25em;
     width: 100%;
-    padding: 0
+    padding: 0;
   }
   figcaption {
     font-size: 0.625em;
   }
 
-
-
-
   .Mes_images {
     position: relative;
     margin-top: 2em;
     margin-right: 0.625em;
-    width: 5em;
-    height: 10em;
+    width: 4.5em;
+    height: 9em;
     box-shadow: 0px 0.4px 1em -0.95 rgba(0, 0, 0, 0.75);
     border-radius: 0.625em
   }
@@ -265,8 +266,8 @@ header{
     margin-left: 1.25em
   }
   .image_bas {
-    width: 25%;
-    margin-left: 12em;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 1em;
     border-radius: 35%;
     background-color: white;
@@ -279,14 +280,13 @@ header{
   .Text_bas {
     width: 85%;
     margin-top: 1em;
-    height: 3em;
     padding: 0em 0.5em 0em 0.5em;
     font-size: 1em;
     font-family: cursive;
     margin-left: 2em;
-    color: white;
+    color: Black;
     border-radius: 0.95em;
-    background-color: #eff2f5;
+    background-color: rgb(255 255 255);
     text-align: center
   }
 }
