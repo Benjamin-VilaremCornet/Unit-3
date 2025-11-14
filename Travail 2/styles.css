@@ -1,29 +1,28 @@
-body {
-  font-family: Times, serif;
+body {/*pour tout*/
+  font-family: Times, serif;/*définir la font de base*/
   color: rgb(255, 255, 255);
   width: 100%;   
-  background-image: url('images/fond.jpg');
+  background-image: url('images/fond.jpg');/*ajouter une image d'arrière plan*/
   background-repeat: no-repeat;
   background-size: cover;
 }
 #titre {
-  text-align: center;
+  text-align: center;/*Pour le titre, donner des propriétés*/
   font-style: normal;
   font-weight :bold;
   font-size: 30px;
   padding:25px;
 background-color: rgb(33, 216, 216);
 }
-#soustitre {
+#soustitre {/*soustitre et ses propriétés*/
    text-align: center;
   font-style: italic;
   font-weight :bold;
   font-size: 25px;
   background-color: transparent;
-
   color: aquamarine;
 }
-.citation {
+.citation {/*pour tout le div de la citation: pads de margin et une taille de 900 par 225*/
   margin: 0 auto;
     display: flex;
     padding: 20px;
@@ -35,7 +34,7 @@ background-color: rgb(33, 216, 216);
   max-height: 225px;
 
 }
-.texte {
+.texte {/*le texte de la citation*/
   max-width: 500px;
 
   font-size: 20px;
@@ -44,7 +43,7 @@ background-color: rgb(33, 216, 216);
     flex: 1;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-.img {
+.img {/*l'image de la citation*/
     width: 7cm;
     height: 5cm;
     padding: 1em;
@@ -52,12 +51,12 @@ background-color: rgb(33, 216, 216);
   transform:rotate(0.05turn);
 }
 
-#titre2 {
+#titre2 {/*le titre du paragraphe*/
       color: rgb(255, 255, 255);
         font-size: 30px;
         margin: 20px;
 }
-#texte2 {
+#texte2 {/*le texte du paragraphe*/
 
     font-size: 18px;
   width: 35em;
@@ -67,16 +66,17 @@ background-color: rgb(33, 216, 216);
         color: rgb(118, 208, 243);
     margin: 10px;
 }
-.texte:hover{
+.texte:hover{/*quand la souris survole le texte de la citation*/
+  transform:scale(1.05);/*agrandir la citation*/
+}
+.paragraphe:hover {/*quand la souris passe sur le texte du paragraphe, l'agrandir*/
   transform:scale(1.05);
 }
-.paragraphe:hover {
-  transform:scale(1.05);
-}
-.paragraphe{
+.paragraphe{/**Propriétés du paragraphe/
   margin:50px;
   margin-left:100px;
   align-content: left;
   width: 35em;
+
 
 }
