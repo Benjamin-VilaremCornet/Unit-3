@@ -1,0 +1,28 @@
+body {
+  font-family: Verdana;
+}
+ImgBottom{
+  Width : 100%;
+  Height : 45%;
+}
+ImgTop{
+  Width : 100%;
+  Height : 45%;
+}
+.Copyright{
+  text-align: right;
+}
+.liens{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.liens li::after{
+  content : " | ";
+}
+.liens li{
+  margin-right : 4px;
+}
+.liens li:last-child::after{
+  content : "";
+}
