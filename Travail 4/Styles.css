@@ -1,9 +1,9 @@
-* {
+* {/*enlever la marge pour tout*/
   margin: 0;
   box-sizing: border-box;
 }
 
-header {
+header {/*propriétées du header*/
   background-color: #f1f2f5;
   display: flex;
   flex-direction: row;
@@ -14,23 +14,23 @@ header {
   font-size: 1.5em;
   box-shadow: 0 0.3125em 0.5em - 0.5em rgba(0, 0, 0, 0.75);
 }
-header{
+header{/*espacer tout*/
 	  justify-content: space-evenly;
 
 }
-.Header_Gauche {
+.Header_Gauche {/*propriétés du header*/
 	margin:1em;
 	float:left;
 	display: flex;
   align-items: center;
 }
 
-.Header_Gauche img {
+.Header_Gauche img {/*propriétés de l'image du header*/
   width: 3.125em;
   height: 3.125em;
 }
 
-.header_input {
+.header_input {/*propriétés de l'input*/
   display: flex;
   align-items: center;
   background-color: #eff2f5;
@@ -39,71 +39,64 @@ header{
   border-radius: 2em;
 }
 
-.header_input .material-icons {
+.header_input .material-icons {/*propriétés des icones*/
   border: none;
   background-color: transparent;
   padding-top: 0.1875em;
 }
 
-.header_input input{
+.header_input input{/*propriétés du input*/
 	border-style: none;
 	background-color: transparent;
 	outline-width: 0;
 }
-.Header_Milieu{
+.Header_Milieu{/*marges du heder au milieu*/
 	width: 10em;
 	margin:1em;
 }
 
-.material-icons a{
+.material-icons a{/*pour chaque lien des icones, cacher le texte qui indique que c'est un lien*/
 	text-decoration: none;
 	color: black;
 	font-size: 2em;
 }
-.material-icons a:hover{
+.material-icons a:hover{/*quand on hover sur les liens, les surligner*/
 	background-color: #eff2f5;
 	border-radius: 0.25em;
 }
 
-.Header_Droite {
+.Header_Droite {/*propriétés du header de droite*/
 	float:right;
 	align-self:right;
   display: flex;
   align-items: center;
 }
-.Header_Droite img {
+.Header_Droite img {/*propriétés de l'image du header de droite*/
   border-radius: 100%;
   width: 3.75em;
   height: 3.75em;
   margin-right: 0.625em;
 }
-.Header_Droite h4:hover {
+.Header_Droite h4:hover {/*quand on hover sur le texte du header de droite, changer les propriétés*/
   background-color: #eff2f5;
   border-radius: 0.625em;
   align-items: center;
   border-bottom: none;
   padding: 0.625em;
 }
-.Header_Droite h4 {
+.Header_Droite h4 {/*propriétés*/
   border-radius: 0.625em;
   font-size: 1em;
   align-items: center;
   border-bottom: none;
 }
-.Header_Droite h4:hover {
-  background-color: #eff2f5;
-  border-radius: 0.625em;
-  align-items: center;
-  border-bottom: none;
-  padding: 0.625em;
-}
 /* MenuGauche  */
 
-.Gauche_Images{
+.Gauche_Images{/*flexer les éléments*/
 	display:flex;
 }
 
-.MenuGauche {
+.MenuGauche {/*propriétés*/
 	display:flex;
    padding-top: 1em;
 	padding-bottom:1em;
@@ -111,14 +104,14 @@ header{
 	padding-left: 1em;
 	padding-right: 1em
 }
-.MenuGauche:hover {
+.MenuGauche:hover {/*quand on hover dessus un des éléments du menu de gauche, le surligner en gris*/
   background-color: lightgray;
   border-radius: 0.625em;
 }
-.MenuGauche span{
+.MenuGauche span{/*propriétés*/
 	font-size:3em;
 }
-.MenuGauche h4 {
+.MenuGauche h4 {/*propriétés*/
 	float:right;
 	display:flex;
 	margin-left: 1.25em;
@@ -126,7 +119,7 @@ header{
 	font-family: Arial, Helvetica, sans-serif;
 }
 /* Mes images */
-.Mes_images {
+.Mes_images {/*propriétés*/
 	width:80%;
 	object-fit: cover;
 	display:flex;
@@ -139,7 +132,7 @@ header{
   border-radius: 0.625em;
 }
 
-.Mes_images figcaption{
+.Mes_images figcaption{/*propriétés*/
 	width: 10em;
 	margin-top: 19em;
 	margin-left: 0em;
@@ -151,22 +144,22 @@ header{
 	text-align: center;
 	
 }
-.Mes_images{
+.Mes_images{/*propriétés*/
 	position: relative;
 	float:left;
 }
-.Mes_images img:hover {
+.Mes_images img:hover {/*quand on hover dessus les images, les agrandire*/
   transform: scale(1.07);
 }
 /* Text et image du bas */
 
-.ImageBottom{
+.ImageBottom{/*propriétés*/
 	  background-color: #eff2f5;
 	margin-top: 3em;
 	padding-top: 1em;
 }
 
-.Text_bas {
+.Text_bas {/*propriétés*/
 	margin-left:1%;
 	width: 98%;
 	margin-top: 1em;
@@ -179,7 +172,7 @@ header{
 	box-shadow: 0px 0.4em 0.9em -0.9em rgba(0, 0, 0, 0.75);
 	text-align: center;
 }
-.image_bas {
+.image_bas {/*propriétés*/
   width: 90%;
 	height:auto;
   margin-left: 5%;
@@ -190,13 +183,13 @@ header{
   animation: flotte 2000ms linear infinite;
   /* la forme va appliquer lanimation tourne pendant 5s et infiniment */
 }
-@keyframes flotte{
+@keyframes flotte{/*animation de l'image du bas*/
 	0% {transform:scale(0.9)}
 	50% {transform:scale(0.95)}
 	100% {transform:scale(0.9)}	
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {/*si la page fais moins que 768px de large, changer toutes les propriétés*/
 
 
   .MenuGauche {
