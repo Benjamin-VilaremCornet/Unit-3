@@ -1,41 +1,41 @@
-.header {
+.header {/*styles du header*/
     display:flex;
     justify-content: left;
 		width: 90%;
 }
-#drapeau {
+#drapeau {/*styles de l'image de drapeau dans le header*/
     width: 10%;
     height: auto;
 }
-#HeaderOntario{
+#HeaderOntario{/*propriétés du header*/
 	margin-left: 20px;
 }
-.liens {
+.liens {/*flexer les liens et ajouter des margin*/
 	display: flex;
 	margin-left: auto;
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
-.liens-texte{
+.liens-texte{/*propriétés du texte des liens*/
     margin-left: 20px;
 	text-decoration: none;
 	color: #333;
 	list-style-type: none;
 	font-size: 25px;
 }
-mark{
+mark{/*Surlignement des mark qui servent à surlignier les liens*/
 	background-color: transparent;
 }
 mark:hover{
 	background-color: rgb(134 118 118 / 50%);
 }
 
-#carnet {
+#carnet {/*margins*/
 	margin-top:5px;
 	margin-left: 10px;
 	margin-bottom: 0px;
 	}
-#ligne {
+#ligne {/*colorier la ligne horizontale*/
 	background-color: brown;
 	  border: none;
 	height: 2px;
@@ -44,19 +44,19 @@ mark:hover{
 
 
 
-.imageGrand {
+.imageGrand {/*flexer l'image de la page*/
 	display:flex;
 	position: relative;
 	}
-.imageGrand:hover {
+.imageGrand:hover {/*Quand on survole le conteneur de l'image, agrandir ce conteneur*/
 	transform: scale(0.9);
 }
-#toronto-grand{
+#toronto-grand{/*Propriétés de l'image*/
 	border-radius: 15px;
 	width: 100%;
 	height: auto;
 	}
-.textGrand{
+.textGrand{/*propriétés du conteneur du texte de l'image*/
 	background-color: rgba(0, 0, 0, 0.5); 
 	border-radius: 15px;
 	position: absolute;
@@ -69,29 +69,29 @@ mark:hover{
 	align-items: center;
 	text-shadow: 5px 5px 0 black;
 }
-#TexteImageGrand{
+#TexteImageGrand{/*propriétés du texte de l'image*/
 	color: white;
 	margin-top: 2%;
 	padding-left: 20px;
 	}
-.textGrand:hover{
+.textGrand:hover{/*changer l'opacité du conteneur du texte de l'image quand on le survole*/
 	opacity: 0.1;
 }
 
 
-#toronto-petit {
+#toronto-petit {/*proptiétés de l'image circulaire de toronto*/
 	width: 180px;
     height: auto;
 	border-radius: 50%;
 
 }
-#titreBlog {
+#titreBlog {/*propriétés du titre du blog de DT*/
 	display:flex;
 	justify-content: normal;
 	width: 100%;
 }
 
-.blog{
+.blog{/*conteneur du blog*/
     display:flex;
     background-color: rgb(240,240,247);
     padding: 1.5em;
@@ -102,19 +102,19 @@ mark:hover{
 #blog-toronto{
     margin-top: 10px;
 }
-.T1{
+.T1{/*pour tous les titres du blog:*/
 font-size: 20px;
 text-indent: 0.8cm;
 font-family: Cambria,Cochin, Georgia, Times, 'Times New Roman';
 }
-.contenu{
+.contenu{/*propriétés*/
 	margin-top: 20px;
     display: flex;
     justify-content: left;
 	width: 90%;
 	margin-left: 5%;
 }
-aside{
+aside{/*propriétés du aside*/
 	float: right;
 	flex: 1;
 	width: 25%;
@@ -127,14 +127,14 @@ aside{
 	box-shadow: rgba(0, 0, 0, 0.35) 0px;
 	font-family: "Terminal", "Fixedsys", monospace;
 }
-aside p{
+aside p{/*propriétés du texte du aside*/
 text-align:justify;
 }
-#trump{
+#trump{/*propriétés du conteneur*/
 	padding: 0 3em 2em 2em;
 }
 
-#logoFacebook{
+#logoFacebook{/*pour tous les logos:*/
 	width: 50px;
 	height: 50px;
 	margin: 10px;
@@ -154,29 +154,29 @@ text-align:justify;
 	height: 50px;
 	margin: 10px;
 }
-#TrumpRouge{
+#TrumpRouge{/*changer le texte dans le span à rouge*/
 	color: red;
 }
-footer{
+footer{/*définir les propriétés du footer*/
 	display:flex;
 	flex-direction: row;
 	margin: 5%;
 	gap:50px;
 }
-.amis{
+.amis{/*faire que le footer soit séparé en 2 au milieu*/
 	width:50%;
 }
-.amis ul{
+.amis ul{/*faire que la liste des amis soit à droite*/
 float:left;
 	color:darkred;
 }
-.amis ul li::marker{
+.amis ul li::marker{/*changer la courleur du bullet point des amis*/
 	color:black;
 }
-.tweet{
+.tweet{/*changer le width des tweets*/
 	width: 50%;
 }
-.socials{
+.socials{/*propriétés de ses liens*/
     display: flex;
     flex-direction: row;
 }
