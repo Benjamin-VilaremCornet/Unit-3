@@ -1,28 +1,28 @@
-body {
+body {/*propriétés de la page*/
   font-family: Verdana;
 }
-ImgBottom{
+ImgBottom{/*Propriétés*/
   Width : 100%;
   Height : 45%;
 }
-ImgTop{
+ImgTop{/*Propriétés*/
   Width : 100%;
   Height : 45%;
 }
-.Copyright{
+.Copyright{/*Propriétés*/
   text-align: right;
 }
-.liens{
+.liens{/*Propriétés*/
   display: flex;
   justify-content: center;
   list-style: none;
 }
-.liens li::after{
+.liens li::after{/*Propriétés*/
   content : " | ";
 }
-.liens li{
+.liens li{/*Propriétés*/
   margin-right : 4px;
 }
-.liens li:last-child::after{
+.liens li:last-child::after{/*Propriétés*/
   content : "";
 }
